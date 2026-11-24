@@ -7,7 +7,7 @@ jobs:
   comment:
     permissions:
       issues: write
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2604
     steps:
       - uses: peter-evans/create-or-update-comment@v5
         with:
